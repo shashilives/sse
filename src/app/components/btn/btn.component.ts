@@ -14,13 +14,12 @@ export class BtnComponent implements OnInit {
 
   constructor() {
   }
+
   ngOnInit() {
     this.wrapper.nativeElement.style.background = this.bgColor;
   }
 
   onBtnClick() {
     this.close.emit(null);
-    console.log();
-
   }
 }
